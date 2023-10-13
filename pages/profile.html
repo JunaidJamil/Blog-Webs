@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <style>
+        * {
+            margin: 0px;
+            font-family: sans-serif;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div class="navbar">
+        <div class="heading">
+            <a href="./index.html" style="text-decoration: none; color: white;">
+                <h3> Blogging App</h3>
+            </a>
+        </div>
+        <div class="logsinbtn">
+            <a style="text-decoration: none; color: white; cursor: pointer;" style="display: none;" id="userss">
+                <p style="display: none;">User</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" id="logout" style="display: none;"
+                id="logout">
+                <p style="display: none;" id="logout1">Login</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" href="./login.html">
+                <p id="loginmain">Login</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" href="./blogger.html">
+                <p id="blog">Blogs</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- navbar -->
+ 
+    <!-- heading -->
+    <div class="signupheading">
+        <div class="signupheading1">
+          <a href="/pages/index.html" style="text-decoration: none;"><h1> < Back to all Dashboard</h1></a>  
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+
+        <div id="mainpostcontainer" style="padding-left: 120px;">
+
+        </div>
+        <div class="userpic"
+            style="margin-top: 100px;padding-right: 40px;display: flex;justify-content: flex-start; align-items:flex-end; flex-direction: column;">
+            <p id="userpicemail">Email</p>
+            <h2 id="userpicname">Name</h2>
+            <img id="userpicimage" style="margin-top: 20px; width: 280px; border-radius: 20px; height: 250px;"
+                src="/img/prof.jpg"
+                alt="">
+        </div>
+        <!-- heading -->
+    </div>
+    <script type="module" src="../js/profile.js"></script>
+</body>
+
+</html>
